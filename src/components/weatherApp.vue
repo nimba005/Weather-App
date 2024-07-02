@@ -1,10 +1,10 @@
 <script>
-impotr axios from 'axios'
+import axios from 'axios'
 export default {
   data() {
     return {
-      api_key: "a658d9be7faa6a87f3f32c451700f994",
-      url_base: "https://api.openweathermap.org/data/2.5/",
+      api_key: "d2aff6b7f5c519443454d08c3cf9d83d",
+      url_base: "https://home.openweathermap.org/api_keys",
       weather_icon: "http://openweathermap.org/img/wn/",
       query: "",
       weather: undefined,
